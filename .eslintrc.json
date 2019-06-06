@@ -1,0 +1,26 @@
+{
+    "root": true,
+    "parser": "babel-eslint",
+    "extends": [
+        "prettier",
+        "prettier/react",
+        "prettier/standard",
+        "plugin:react/recommended"
+    ],
+    "plugins": [
+        "react-hooks",
+        "prettier"
+    ],
+    "settings": {
+        "react": {
+            "pragma": "React",
+            "version": "detect"
+        }
+    },
+    "rules": {
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+        "prettier/prettier": "error",
+        "react/display-name": [false]
+    }
+}
